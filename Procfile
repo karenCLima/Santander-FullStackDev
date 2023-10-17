@@ -1,0 +1,1 @@
+web: java -jar /Santander-FullStackDev/build/libs/Santander-FullStackDev-0.0.1-SNAPSHOT.jar
