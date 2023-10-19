@@ -80,6 +80,6 @@ classDiagram
   ]
 }
 ```
-### Status: Em Andamento
+
 
 
