@@ -55,13 +55,14 @@ classDiagram
 {
   "name": "ana",
   "account": {
+    "id": 1,
     "number": "12345-6",
     "agency": "5678",
     "balance": 1350.00,
     "limit": 1000.00
   },
   "card": {
-    "id": 1
+    "id": 1,
     "number": "xxxx.xxxx.xxxx.0000",
     "limit": 2000.00
   },
