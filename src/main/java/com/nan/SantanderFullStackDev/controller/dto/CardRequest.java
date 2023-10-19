@@ -12,6 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CardRequest {
 	
+	private Long id;
 	private String number;
 	private BigDecimal limit;
 

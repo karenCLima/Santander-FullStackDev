@@ -14,6 +14,7 @@ public class AccountConvert {
 	
 	public static Account toEntity(AccountRequest accountRequest) {
 		Account account = new Account();
+		account.setId(accountRequest.getId());
 		account.setAgency(accountRequest.getAgency());
 		account.setBalance(accountRequest.getBalance());
 		account.setLimit(accountRequest.getLimit());

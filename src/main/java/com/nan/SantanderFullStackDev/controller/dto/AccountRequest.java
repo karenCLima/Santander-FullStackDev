@@ -13,6 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class AccountRequest {
 	
+	private Long id;
 	private String number;
 	private String agency;
 	private BigDecimal balance;

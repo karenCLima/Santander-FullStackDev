@@ -8,6 +8,7 @@ public class CardConvert {
 	
 	public static Card toEntity(CardRequest cardRequest) {
 		Card card = new Card();
+		card.setId(cardRequest.getId());
 		card.setLimit(cardRequest.getLimit());
 		card.setNumber(cardRequest.getNumber());
 		return card;
